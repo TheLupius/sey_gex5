@@ -3,7 +3,87 @@
 <head>
   <meta charset="utf-8">
   <title>Lab 5 – Box Model, Flexbox, Position</title>
-  <link rel="stylesheet" href="styles.css">
+  <style>
+.box {
+  padding: 20px;
+  border: 3px solid #333;
+  margin: 15px 0;
+  background: #f3f3f3;
+  font-size: 18px;
+}
+
+.nav {
+  display: flex;
+  gap: 16px;
+  background: #eaeaea;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 12px;
+  width: 150px;
+  background: #fff;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.relative-block {
+  position: relative;
+  width: 300px;
+  height: 150px;
+  background: #d0eaff;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.absolute-child {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background: #8ac6ff;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.fixed-box {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background: #fffa99;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.sticky-box {
+  position: sticky;
+  top: 0;
+  background: #c8f7c5;
+  padding: 10px;
+  margin: 20px 0;
+  border: 1px solid #8ed991;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: bold;
+}
+  </style>
 </head>
 
 <body>
